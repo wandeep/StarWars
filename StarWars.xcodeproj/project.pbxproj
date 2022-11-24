@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		260BC266292F960E002E90AC /* FilmsViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BC265292F960E002E90AC /* FilmsViewModelTest.swift */; };
+		264A6831292EBB640098494C /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264A6830292EBB640098494C /* People.swift */; };
 		269E509C292E6AB500F6C016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E509B292E6AB500F6C016 /* AppDelegate.swift */; };
 		269E509E292E6AB500F6C016 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E509D292E6AB500F6C016 /* SceneDelegate.swift */; };
-		269E50A0292E6AB500F6C016 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E509F292E6AB500F6C016 /* ViewController.swift */; };
-		269E50A3292E6AB500F6C016 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269E50A1292E6AB500F6C016 /* Main.storyboard */; };
+		269E50A0292E6AB500F6C016 /* FilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E509F292E6AB500F6C016 /* FilmsViewController.swift */; };
 		269E50A5292E6AB500F6C016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269E50A4292E6AB500F6C016 /* Assets.xcassets */; };
 		269E50A8292E6AB500F6C016 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269E50A6292E6AB500F6C016 /* LaunchScreen.storyboard */; };
-		269E50B3292E6AB500F6C016 /* StarWarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E50B2292E6AB500F6C016 /* StarWarsTests.swift */; };
 		269E50BD292E6AB500F6C016 /* StarWarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E50BC292E6AB500F6C016 /* StarWarsUITests.swift */; };
 		269E50BF292E6AB500F6C016 /* StarWarsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E50BE292E6AB500F6C016 /* StarWarsUITestsLaunchTests.swift */; };
+		269E50D1292E6DBF00F6C016 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E50D0292E6DBF00F6C016 /* WebService.swift */; };
+		269E50D3292E6DD300F6C016 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E50D2292E6DD300F6C016 /* Endpoint.swift */; };
+		269E50D8292E75C800F6C016 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E50D7292E75C800F6C016 /* Film.swift */; };
+		269E50DA292E782100F6C016 /* FilmsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E50D9292E782100F6C016 /* FilmsViewModel.swift */; };
+		269E50DF292E873700F6C016 /* FilmDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E50DE292E873700F6C016 /* FilmDetailViewController.swift */; };
+		269E50E1292E879100F6C016 /* FilmDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E50E0292E879100F6C016 /* FilmDetailViewModel.swift */; };
+		269E50E4292EB15500F6C016 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E50E3292EB15500F6C016 /* Coordinator.swift */; };
+		269E50E6292EB2F700F6C016 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E50E5292EB2F700F6C016 /* MainCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +44,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		260BC265292F960E002E90AC /* FilmsViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsViewModelTest.swift; sourceTree = "<group>"; };
+		260BC26B292F9BC6002E90AC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		264A6830292EBB640098494C /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
 		269E5098292E6AB500F6C016 /* StarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		269E509B292E6AB500F6C016 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		269E509D292E6AB500F6C016 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		269E509F292E6AB500F6C016 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		269E50A2292E6AB500F6C016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		269E509F292E6AB500F6C016 /* FilmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsViewController.swift; sourceTree = "<group>"; };
 		269E50A4292E6AB500F6C016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		269E50A7292E6AB500F6C016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		269E50A9292E6AB500F6C016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		269E50AE292E6AB500F6C016 /* StarWarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		269E50B2292E6AB500F6C016 /* StarWarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsTests.swift; sourceTree = "<group>"; };
 		269E50B8292E6AB500F6C016 /* StarWarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		269E50BC292E6AB500F6C016 /* StarWarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsUITests.swift; sourceTree = "<group>"; };
 		269E50BE292E6AB500F6C016 /* StarWarsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		269E50D0292E6DBF00F6C016 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		269E50D2292E6DD300F6C016 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		269E50D7292E75C800F6C016 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		269E50D9292E782100F6C016 /* FilmsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsViewModel.swift; sourceTree = "<group>"; };
+		269E50DE292E873700F6C016 /* FilmDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmDetailViewController.swift; sourceTree = "<group>"; };
+		269E50E0292E879100F6C016 /* FilmDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmDetailViewModel.swift; sourceTree = "<group>"; };
+		269E50E3292EB15500F6C016 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		269E50E5292EB2F700F6C016 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +93,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		260BC262292F9598002E90AC /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				260BC263292F959E002E90AC /* Films */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		260BC263292F959E002E90AC /* Films */ = {
+			isa = PBXGroup;
+			children = (
+				260BC264292F95F2002E90AC /* ViewModel */,
+			);
+			path = Films;
+			sourceTree = "<group>";
+		};
+		260BC264292F95F2002E90AC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				260BC265292F960E002E90AC /* FilmsViewModelTest.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		269E508F292E6AB500F6C016 = {
 			isa = PBXGroup;
 			children = (
+				260BC26B292F9BC6002E90AC /* README.md */,
 				269E509A292E6AB500F6C016 /* StarWars */,
 				269E50B1292E6AB500F6C016 /* StarWarsTests */,
 				269E50BB292E6AB500F6C016 /* StarWarsUITests */,
@@ -99,10 +141,11 @@
 		269E509A292E6AB500F6C016 /* StarWars */ = {
 			isa = PBXGroup;
 			children = (
+				269E50CB292E6C5C00F6C016 /* Core */,
+				269E50CC292E6C6600F6C016 /* Features */,
 				269E509B292E6AB500F6C016 /* AppDelegate.swift */,
 				269E509D292E6AB500F6C016 /* SceneDelegate.swift */,
-				269E509F292E6AB500F6C016 /* ViewController.swift */,
-				269E50A1292E6AB500F6C016 /* Main.storyboard */,
+				269E50E5292EB2F700F6C016 /* MainCoordinator.swift */,
 				269E50A4292E6AB500F6C016 /* Assets.xcassets */,
 				269E50A6292E6AB500F6C016 /* LaunchScreen.storyboard */,
 				269E50A9292E6AB500F6C016 /* Info.plist */,
@@ -113,7 +156,7 @@
 		269E50B1292E6AB500F6C016 /* StarWarsTests */ = {
 			isa = PBXGroup;
 			children = (
-				269E50B2292E6AB500F6C016 /* StarWarsTests.swift */,
+				260BC262292F9598002E90AC /* Features */,
 			);
 			path = StarWarsTests;
 			sourceTree = "<group>";
@@ -125,6 +168,109 @@
 				269E50BE292E6AB500F6C016 /* StarWarsUITestsLaunchTests.swift */,
 			);
 			path = StarWarsUITests;
+			sourceTree = "<group>";
+		};
+		269E50CB292E6C5C00F6C016 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				269E50E2292EB14400F6C016 /* Coordinator */,
+				269E50CF292E6C8B00F6C016 /* Service */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		269E50CC292E6C6600F6C016 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				269E50CD292E6C6F00F6C016 /* Films */,
+				269E50CE292E6C7B00F6C016 /* FilmDetails */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		269E50CD292E6C6F00F6C016 /* Films */ = {
+			isa = PBXGroup;
+			children = (
+				269E50D4292E759800F6C016 /* Model */,
+				269E50D5292E759F00F6C016 /* ViewModel */,
+				269E50D6292E75A900F6C016 /* View */,
+			);
+			path = Films;
+			sourceTree = "<group>";
+		};
+		269E50CE292E6C7B00F6C016 /* FilmDetails */ = {
+			isa = PBXGroup;
+			children = (
+				269E50DD292E871400F6C016 /* Model */,
+				269E50DC292E870B00F6C016 /* ViewModel */,
+				269E50DB292E870400F6C016 /* View */,
+			);
+			path = FilmDetails;
+			sourceTree = "<group>";
+		};
+		269E50CF292E6C8B00F6C016 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				269E50D0292E6DBF00F6C016 /* WebService.swift */,
+				269E50D2292E6DD300F6C016 /* Endpoint.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		269E50D4292E759800F6C016 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				269E50D7292E75C800F6C016 /* Film.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		269E50D5292E759F00F6C016 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				269E50D9292E782100F6C016 /* FilmsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		269E50D6292E75A900F6C016 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				269E509F292E6AB500F6C016 /* FilmsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		269E50DB292E870400F6C016 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				269E50DE292E873700F6C016 /* FilmDetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		269E50DC292E870B00F6C016 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				269E50E0292E879100F6C016 /* FilmDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		269E50DD292E871400F6C016 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				264A6830292EBB640098494C /* People.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		269E50E2292EB14400F6C016 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				269E50E3292EB15500F6C016 /* Coordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +379,6 @@
 			files = (
 				269E50A8292E6AB500F6C016 /* LaunchScreen.storyboard in Resources */,
 				269E50A5292E6AB500F6C016 /* Assets.xcassets in Resources */,
-				269E50A3292E6AB500F6C016 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +403,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				269E50A0292E6AB500F6C016 /* ViewController.swift in Sources */,
+				269E50A0292E6AB500F6C016 /* FilmsViewController.swift in Sources */,
+				269E50D8292E75C800F6C016 /* Film.swift in Sources */,
+				269E50E4292EB15500F6C016 /* Coordinator.swift in Sources */,
 				269E509C292E6AB500F6C016 /* AppDelegate.swift in Sources */,
+				264A6831292EBB640098494C /* People.swift in Sources */,
+				269E50DF292E873700F6C016 /* FilmDetailViewController.swift in Sources */,
+				269E50E6292EB2F700F6C016 /* MainCoordinator.swift in Sources */,
+				269E50D1292E6DBF00F6C016 /* WebService.swift in Sources */,
+				269E50DA292E782100F6C016 /* FilmsViewModel.swift in Sources */,
 				269E509E292E6AB500F6C016 /* SceneDelegate.swift in Sources */,
+				269E50D3292E6DD300F6C016 /* Endpoint.swift in Sources */,
+				269E50E1292E879100F6C016 /* FilmDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +422,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				269E50B3292E6AB500F6C016 /* StarWarsTests.swift in Sources */,
+				260BC266292F960E002E90AC /* FilmsViewModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +451,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		269E50A1292E6AB500F6C016 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				269E50A2292E6AB500F6C016 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		269E50A6292E6AB500F6C016 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,7 +587,6 @@
 				INFOPLIST_FILE = StarWars/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -451,6 +596,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = uk.custombytes.StarWars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -468,7 +616,6 @@
 				INFOPLIST_FILE = StarWars/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -478,6 +625,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = uk.custombytes.StarWars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
